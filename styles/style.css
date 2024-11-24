@@ -1,3 +1,9 @@
+ p,a,div,span {
+    color:red;
+ }
+
+
+
 .goit2{
     color: purple;
 }
@@ -38,4 +44,55 @@ div #arac li{
  }
 .sosial-links  .link:focus {
     color: orange;
+}
+
+section >p {
+    color: blue !important;
+
+}
+
+.pelement{
+    color: blueviolet;
+}
+#pidsi {
+    color:green;
+}
+.kutucuk {
+    background-color:lawngreen;
+    width:50%;
+    height:150px;
+    border: 3px solid red; 
+    font-family:"Ariel,Helvetika,sans-serif";
+    font-size:13px; 
+    text-align:left;
+    text-indent:20px;
+
+}
+.kutucuk p {
+    font-weight:900;
+    font-style: italic;
+}
+.goit-css {
+  /* text-decoration: underline; */
+   text-transform:uppercase;
+   background-color:yellowgreen;
+   line-height:25px;
+   font-size:25px;
+   letter-spacing:10px;
+   
+}
+.shadow {
+    font-size:20px;
+    text-shadow:-2px -2px 7px red;
+    /*eksi degeri başlamgıç degeri sonla sağ ve alt değerini sol ve üst değerine çevirir*/
+    color: black !important;
+    
+}
+.shadow span {
+    color: blue;
+    font-weight:900;
+    font-size:16px;
+}
+.sosial-links {
+    list-style-type:none;
 }
